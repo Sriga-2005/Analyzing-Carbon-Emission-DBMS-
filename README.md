@@ -1,89 +1,67 @@
-# 🌿 Carbon Emission Analysis – DBMS Project
+# 🌍 Carbon Emission Analysis – DBMS Project
 
-A simple yet effective PHP + MySQL-based web application designed to record, analyze, and visualize carbon emissions across various sources and countries. This beginner-friendly project focuses on CRUD operations, chart generation, and real-time filtering using file and database interaction — all hosted locally using XAMPP.
-
----
-
-## ✨ Features
-
-🔸 **Carbon Emission Entry**  
-Users can enter emission data including:
-- Source of emission
-- Amount of CO₂ (kg)
-- Date of emission
-- Country
-
-🔸 **Data Visualization**
-- 📈 **Line Chart** – Emissions over time
-- 🥧 **Pie Chart** – Emission contribution by source
-
-🔸 **Smart Filtering**
-- Filter data by **country** or **year**
-- View total and average CO₂ emissions instantly
-
-🔸 **Record Management**
-- View all records in a tabular format
-- Update or delete existing entries
-- Clean and intuitive interface
+Hey there! This is a simple web project I built using PHP and MySQL to store and analyze carbon emission data. It helped me understand how CRUD operations work in real life and how to make data a little more visual and meaningful.
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 What This Project Does
 
-| Layer       | Tools Used          |
-|-------------|---------------------|
-| Frontend    | HTML, CSS (basic styling) |
-| Backend     | PHP                 |
-| Database    | MySQL (via phpMyAdmin) |
-| Charts      | Chart.js            |
-| Server      | XAMPP / Localhost   |
+🔹 **Add Emission Data**  
+Users can enter details like:
+- Source (e.g., fuel, electricity, etc.)
+- Amount of carbon emitted (in kg)
+- Date and Country
 
----
+🔹 **View and Manage Records**  
+All entered data is displayed in a table. Features include:
+- Edit and delete existing records
+- Filter by country or year
+- View total and average emissions
 
-## 🧾 File Overview
-
-| File Name           | Description                                      |
-|---------------------|--------------------------------------------------|
-| `index.php`         | Main form to submit new emission entries         |
-| `view.php`          | Displays all records, filters, charts, summary   |
-| `edit.php`          | Update an existing emission record               |
-| `delete.php`        | Delete an existing emission record               |
-| `db_config.php`     | Database connection configuration                |
-| `emissions.sql`     | SQL file to set up the emissions table           |
-| `screenshots/`      | (Optional) Contains screenshots for reference    |
+🔹 **Data Visualization**
+- 📈 Line chart to show carbon trends over time  
+- 🥧 Pie chart to display emission breakdown by source
 
 ---
 
-## ⚙️ How to Run Locally
+## 🔧 Tech Used
 
-1. 📥 Import `emissions.sql` into your MySQL database via phpMyAdmin
-2. 🗂️ Place project files into the `htdocs` folder (XAMPP)
-3. ▶️ Start Apache and MySQL via XAMPP Control Panel
-4. 🌐 Open your browser and navigate to  
+- **Frontend** – HTML + CSS (basic)
+- **Backend** – PHP (XAMPP)
+- **Database** – MySQL (phpMyAdmin)
+- **Charts** – Chart.js
+
+---
+
+## 📁 Files Inside
+
+| File Name        | Description                                |
+|------------------|--------------------------------------------|
+| `index.php`      | Form to submit new emission entries        |
+| `view.php`       | Displays records, filters, and charts      |
+| `edit.php`       | Updates an existing entry                  |
+| `delete.php`     | Deletes a record                           |
+| `db_config.php`  | Database connection settings               |
+| `emissions.sql`  | SQL file to create the required table      |
+
+---
+
+## 🖥️ How to Run
+
+1. Import the `emissions.sql` file into phpMyAdmin
+2. Move the project folder to `htdocs` (inside your XAMPP directory)
+3. Start Apache and MySQL from the XAMPP Control Panel
+4. In your browser, go to:  
    `http://localhost/your-folder-name/index.php`
 
 ---
 
-## 🚫 Not Included (Currently)
+## 🙋‍♀️ A Little About Me
 
-- No user authentication or login system
-- No CSV export (only view/edit/delete within the app)
-- Not mobile responsive
+I’m **Sri Gayathri S**, currently pursuing B.Tech in **AI & Data Science**. This was one of my first DBMS-based web projects, and working on it made me even more excited about using tech for environmental awareness and real-world problem solving.
 
----
-
-## 📸 Screenshots
-
-Screenshots are available in the `/screenshots/` folder of this repository for demo purposes.
-
----
-
-## 👩‍💻 Author
-
-**Sri Gayathri S**  
-🎓 B.Tech – Artificial Intelligence and Data Science  
 🔗 [GitHub – Sriga-2005](https://github.com/Sriga-2005)
 
 ---
 
-> 🌱 This project is a reflection of my growing interest in database-driven web development and data visualization. Built from scratch as part of my academic learning and personal curiosity about carbon footprint analysis. Feedback and suggestions are welcome!
+> Thank you for checking out my project! If you’re exploring PHP or databases, feel free to learn from this and build your own version. 😊
